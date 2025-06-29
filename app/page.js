@@ -23,7 +23,6 @@ const page = () => {
     deleteHandler(i)
   }
   const deleteHandler = (i)=>{
-    confirm("Confirm Delete")
     var copyStack = [...mainTask]
     copyStack.splice(i,1)
     setmainTask(copyStack)
